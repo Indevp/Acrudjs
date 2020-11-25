@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <H1>Registro</H1>
+    <div class="container-box">
+    <form action="">
+        Ingrese su nombre
+        <br>
+        <input type="text" id="nombre" ><br>
+        Ingrese su edad
+        <br>
+        <input type="text" id="edad"><br>
+        Ingrese su dni
+        <br>
+        <input type="text" id="dni"><br>
+        Elija su curso
+        <br>
+        <select  id="curso" >
+
+        </select><br><br>
+        <button class="bg btn-primary " id="aceptar" type="button" onclick="agregar()">agregar</button><br>
+        <div id="b1" class="bt">
+       
+      </div>
+        <br>
+    </form>
+    </div>
+    <div class="table table-striped">
+    <table class="table-c">
+        <thead>
+            <tr>
+               <th>nombre</th>
+               <th>edad</th>
+               <th>dni</th>
+               <th>curso</th>
+               <th>opcion</th>
+            </tr>
+       </thead>
+        <tbody id="salida">
+        
+        </tbody>
+    </table>
+    </div>
+
+</div>
+    <script > 
+      /*  var arreglo=[]
+        var n=0
+        var x
+        var e=document.getElementById('salida')
+        function agregar()
+        {
+            x=document.getElementById('nombre').value;
+            arreglo[n]=x
+            var data=''
+            for (n=0; n < arreglo.length;n++) {
+               data+='<tr> <td>'+arreglo[n]+'  <button style="backgroud:black;">X</button></td></tr>'
+            }
+            return  e.innerHTML=data
+        }*/
+    </script>
+    <script>
+        /* var list=[]
+         var nombre
+         var edad
+         var dni
+         var curso
+         var tabla=document.getElementById('salida')
+        function agregar(){
+            nombre=document.getElementById('nombre').value
+            edad=document.getElementById('edad').value
+            dni=document.getElementById('dni').value
+            curso=document.getElementById('curso').value
+            var usuario={nombre:nombre,edad:edad,dni:dni,curso:curso}
+           list.push(usuario)
+           var un=''
+          for(let x of list){
+             un+='<tr> <td>'+x.nombre+'</td> <td>'+x.edad+'</td> <td>'+x.dni+'</td> <td>'+x.curso+'</td></tr>'
+             console.log(x.nombre)
+          }
+            return tabla.innerHTML=un
+        }*/
+    </script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="clase1.js"></script>
+</body>
+</html>
