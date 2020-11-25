@@ -1,0 +1,15 @@
+.container{
+background-color:darkgray;
+text-align: center;
+}
+.container-box{
+align-items: center;
+justify-content: center;
+}
+.table-c{
+margin: 0 auto;
+text-align: center;
+}
+.bt{
+    padding: 6px;
+}
